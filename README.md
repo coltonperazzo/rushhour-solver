@@ -1,8 +1,8 @@
 # Rush Hour Solver
 Implements the A* algorithm to solve the popular rush hour puzzle.
 
-rushhour(heuristicState, initalState)
-heuristicState = 0 => blocking heuristic.
+rushhour(heuristicState, initalState)\n
+heuristicState = 0 => blocking heuristic.\n
 Returns how many vehicles, other than the main vehicle X is blocking it's path to the exit.
 
 heuristicState = 1 => distance blocked heuristic.
