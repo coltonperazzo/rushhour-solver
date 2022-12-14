@@ -1,6 +1,5 @@
 # Rush Hour Solver
 Implements the A* algorithm to solve the popular rush hour puzzle.
-![](https://m.media-amazon.com/images/I/71DO6coFVEL.jpg)
 
 #### Usage:
 ```python
