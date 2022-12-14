@@ -1,14 +1,18 @@
 # Rush Hour Solver
 Implements the A* algorithm to solve the popular rush hour puzzle.
 
+# Usage:
+```python
 rushhour(heuristicState, initalState)
+```
 
-heuristicState = 0 => blocking heuristic.
-Returns how many vehicles, other than the main vehicle X is blocking it's path to the exit.
+```heuristicState``` = integer (0 or 1) <br />
+```initalState``` = array of strings <br />
 
-heuristicState = 1 => distance blocked heuristic.
+```X``` denotes location of vehicle. <br />
+```A-Z``` denotes other locations that are not the vehicle we are trying to get off the board.
 
-#### Usage:
+# Example:
 ```python
 rushhour(0, ["--B---","--B---","XXB---","--AA--","------","------"])
 ```
